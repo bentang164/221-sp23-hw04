@@ -1,0 +1,44 @@
+# Plain text file containing a list of dates and other stuff.
+
+# Month Day, Year
+May 14, 2020
+
+# Day Month, Year
+14 May, 2020
+
+# MM/DD/YY
+05/14/20
+
+# MM/DD/YYYY
+05/14/2020
+
+# YYYY/MM/DD
+2020/05/14
+
+# MM-DD-YYYY
+05-14-2020
+
+# Below this line are non-date items
+Test
+Hello World
+Computer
+Algorithms
+Software Design
+Macalester College
+3D Printed Dragonite
+Symbols should also count, right?
+Some words that aren't dates
+Regular Expression
+Another non-date
+netsh wlan show wlanreport
+ifconfig en0 | grep inet | awk '{ print $2 }'
+@!^*&*()_^%*
+#$*&$#@!)_%&@#*(@#!@|<>?::")
+~!@#$%^&*()_+{}|:"<>?
+
+# Below this line are the "edge" cases that'll break it
+Not 05, 2020
+Some words May 14, 2020 some more words
+Death 05, 2020
+Notadate 05, 2020
+66-05-2020
